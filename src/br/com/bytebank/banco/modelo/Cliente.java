@@ -1,5 +1,11 @@
 package br.com.bytebank.banco.modelo;
 
+/**
+ * Objeto de valor com os dados do cliente no Bytebank.
+ * 
+ * @author Robson Teixeira
+ * @version 0.1
+ */
 public class Cliente {
 
 	private String nome;
