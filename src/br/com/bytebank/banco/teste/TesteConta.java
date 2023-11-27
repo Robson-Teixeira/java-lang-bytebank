@@ -1,12 +1,14 @@
-package teste;
+package br.com.bytebank.banco.teste;
+
+import br.com.bytebank.banco.modelo.*;
 
 public class TesteConta {
-	public static void main(String[] args) throws modelo.SaldoInsuficienteException {
+	public static void main(String[] args) throws SaldoInsuficienteException {
 
-		modelo.ContaCorrente contaCorrente = new modelo.ContaCorrente(1123, 1337);
+		ContaCorrente contaCorrente = new ContaCorrente(1123, 1337);
 		contaCorrente.deposita(100.00);
 
-		modelo.ContaPoupanca contaPoupanca = new modelo.ContaPoupanca(1123, 1338);
+		ContaPoupanca contaPoupanca = new ContaPoupanca(1123, 1338);
 		contaPoupanca.deposita(200.00);
 
 		contaCorrente.transfere(10.0, contaPoupanca);

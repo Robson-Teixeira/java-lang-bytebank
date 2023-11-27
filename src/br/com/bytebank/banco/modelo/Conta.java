@@ -1,4 +1,4 @@
-package modelo;
+package br.com.bytebank.banco.modelo;
 
 // Classe abstrata não pode ser instanciada
 public abstract class Conta {
