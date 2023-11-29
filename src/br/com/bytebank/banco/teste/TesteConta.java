@@ -3,6 +3,8 @@ package br.com.bytebank.banco.teste;
 import br.com.bytebank.banco.modelo.*;
 
 public class TesteConta {
+	
+	// java.lang - package importado de forma implícita em todas as classes
 	public static void main(String[] args) throws SaldoInsuficienteException {
 
 		ContaCorrente contaCorrente = new ContaCorrente(1123, 1337);
