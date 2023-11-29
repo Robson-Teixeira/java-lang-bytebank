@@ -5,6 +5,8 @@ import br.com.bytebank.banco.modelo.*;
 public class TesteConta {
 	
 	// java.lang - package importado de forma implícita em todas as classes
+	// Classes comuns: String, Boolean, Byte, Double e etc 
+	// Exceções: Exception, RuntimeException, NullPointerException, ArithmeticException e etc
 	public static void main(String[] args) throws SaldoInsuficienteException {
 
 		ContaCorrente contaCorrente = new ContaCorrente(1123, 1337);
