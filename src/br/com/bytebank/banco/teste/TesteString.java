@@ -18,6 +18,31 @@ public class TesteString {
 		nome = nome.toUpperCase();
 		System.out.println("ToUpperCase: " + nome);
 
+		char char1 = 'A';
+		char char2 = 'a';
+		nome = nome.replace(char1, char2);
+		System.out.println("Replace char: " + nome);
+
+		System.out.println("CharAt: " + nome.charAt(2));
+
+		System.out.println("IndexOf: " + nome.indexOf("UR"));
+
+		System.out.println("Substring: " + nome.substring(1));
+
+		System.out.println("Substring - begin & end: " + nome.substring(1, 3));
+
+		System.out.println("Length: " + nome.length());
+
+		for (int i = 0; i < nome.length(); i++)
+			System.out.println("CharAt: " + nome.charAt(i));
+
+		System.out.println("IsEmpty: " + nome.isEmpty());
+
+		nome += " ";
+		System.out.println("Trim: " + nome.trim());
+
+		System.out.println("Contains: " + nome.contains("aLU"));
+
 	}
 
 }
