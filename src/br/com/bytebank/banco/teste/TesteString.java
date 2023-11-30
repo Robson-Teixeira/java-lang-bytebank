@@ -43,6 +43,17 @@ public class TesteString {
 
 		System.out.println("Contains: " + nome.contains("aLU"));
 
+		String frase = "Java e java.lang: programe com a classe Object e String";
+		String[] split = frase.split(" ");
+
+		for (int i = 0; i < split.length; i++)
+			System.out.println("Split: " + split[i]);
+
+		split = frase.split(" ", 4);
+
+		for (int i = 0; i < split.length; i++)
+			System.out.println("Split - limit: " + split[i]);
+
 	}
 
 }
