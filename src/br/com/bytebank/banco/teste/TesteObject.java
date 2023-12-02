@@ -16,7 +16,7 @@ public class TesteObject {
 		Object contaPoupanca = new ContaPoupanca(1123, 1338);
 		Object cliente = new Cliente();
 
-		System.out.println(contaCorrente.toString());
+		System.out.println(contaCorrente);
 		System.out.println(contaPoupanca);
 		System.out.println(cliente);
 
